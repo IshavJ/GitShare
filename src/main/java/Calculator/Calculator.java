@@ -9,20 +9,16 @@ public class Calculator {
 
     public static void inputs(){
         System.out.println("Enter numbers ");
-        for(int i =0;i<=1;i++){
-            if(sc.hasNextInt()){
+        if(sc.hasNextInt()){
                 array.add(sc.nextInt());
                 array.add(sc.nextInt());
                 System.out.println("Integer");
-                break;
             }
             else {
                 array.add(sc.nextFloat());
                 array.add(sc.nextFloat());
                 System.out.println("Float");
-                break;
             }
-        }
         System.out.println(array);
     }
 

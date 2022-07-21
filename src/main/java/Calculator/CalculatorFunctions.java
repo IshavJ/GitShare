@@ -16,10 +16,21 @@ public class CalculatorFunctions {
     }
 
     public static void div(int a,int b){
-        System.out.println(a/b);
+
+        if(b==0)
+        {
+            System.out.println("cannot be divided by zero");
+        }
+        else {
+        System.out.println(a/b);}
     }
     public static void div(float a,float b){
-        System.out.println(a/b);
+        if(b==0)
+        {
+            System.out.println("cannot be divided by zero");
+        }
+        else {
+            System.out.println(a/b);}
     }
 
     public static void multi(int a,int b){
