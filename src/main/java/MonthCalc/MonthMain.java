@@ -8,7 +8,7 @@ public class MonthMain {
     public static void main(String[] args) {
         System.out.println("Enter month");
         switch ( new Scanner(System.in).next().toLowerCase()) {
-            case "jan":
+            case "jan" :
                 no = 1;
                 break;
             case "feb":
