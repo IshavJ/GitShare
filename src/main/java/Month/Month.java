@@ -1,8 +1,8 @@
-package MonthCalc;
+package Month;
 
 import java.util.Scanner;
 
-public class MonthMain {
+public class Month {
     static int no = 0;
 
     public static void main(String[] args) {
@@ -47,21 +47,19 @@ public class MonthMain {
             default :
                 System.out.println("invalid month");
                 System.exit(0);
-
-
-
         }
-        System.out.println("enter no between 1 to 24");
+
+        System.out.println("enter no");
         int a = new Scanner(System.in).nextInt() + no;
 
         if (a <= 12) {
-            Monthfx.monthFx(a);
+            MonthFunctions.monthFx(a);
         } else if (a >= 13 && a <= 24) {
             int b = a - 12;
-            Monthfx.monthFx(b);
+            MonthFunctions.monthFx(b);
         } else if (a>=25 && a<=36) {
             int c=a-24;
-            Monthfx.monthFx(c);
+            MonthFunctions.monthFx(c);
 
         }
     }

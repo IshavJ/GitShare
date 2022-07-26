@@ -1,8 +1,8 @@
-package MonthCalc;
+package Month;
 
 import java.util.Scanner;
 
-public class Monthfx
+public class MonthFunctions
 {
     public static void monthFx1(int no)
     {
@@ -46,12 +46,8 @@ public class Monthfx
             default :
                 System.out.println("invalid month");
                 System.exit(0);
-
-
-
         }
     }
-
 
     public static void monthFx(int no)
     {
